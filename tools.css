@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+   
+    background-color: black;
+    
+    
+}
+
+
+.con-select{
+   margin: 10px auto;
+   
+   margin-right: 500px;
+}
+
+.main-select{
+    display: flex;
+}
+
+.navbar{
+    display: flex;
+    border-bottom:1px solid #8eff8e;
+    display: flex;
+
+}
+
+.navbar li{
+    list-style-type: none;
+    overflow: hidden;
+    
+
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 40px;
+    float: left;
+    display: flex;
+    color: black;
+    font-size: 30px;
+    color: #8eff8e;
+}
+
+
+.navbar li:hover{
+    animation: zoom .6s forwards;
+
+}
+
+@keyframes zoom{
+    100%{transform: scale(1.5,1.5);}
+}
+
+.navbar a:hover{
+    background:linear-gradient(rgb(230, 255, 8),green);
+}
+.con-HS{
+    display: flex;
+}
+
+
+header{
+    margin-top: 24px;
+}
+
+.con-header{
+   margin-left: 180px;
+   margin-top: 15px;
+   display: flex;
+}
+
+.header-logo{
+    height: 100px;
+    animation: rotate 2s infinite linear;
+}
+
+@keyframes rotate{
+    100%{transform: rotateZ(360deg);}
+}
+
+
+
+
+ .tools-grid {
+        
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+        padding: 20px;
+        max-width: 900px;
+        margin: 350px auto;
+        font-family: Arial, sans-serif;
+    }
+
+    .tool-card {
+        background: #ffffff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 50px;
+        cursor: pointer;
+        transition: 0.2s;
+        box-shadow: 0 2px 4px rgb(255, 233, 37);
+    }
+
+
+    .tool-card:hover {
+        background: #f2f2f2;
+        box-shadow: 0 3px 6px rgba(179, 164, 32, 0.1);
+        animation: zoom .6s forwards;
+    }
+
+
+    @keyframes zoom {
+        100%{
+            transform: scale(1.5,1.5);
+        }
+        
+    }
+
+    .tool-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    .tool-desc {
+        font-size: 14px;
+        color: #555;
+    }
+
+    

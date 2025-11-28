@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+   
+    background-color: black;
+    
+    
+}
+
+
+.con-select{
+   margin: 10px auto;
+   
+   margin-right: 500px;
+}
+
+.main-select{
+    display: flex;
+}
+
+.navbar{
+    display: flex;
+    border-bottom:1px solid #8eff8e;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.navbar li{
+    list-style-type: none;
+    overflow: hidden;
+    
+
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 40px;
+    float: left;
+    display: flex;
+    color: black;
+    font-size: 30px;
+    color: #8eff8e;
+}
+
+
+.navbar li:hover{
+    animation: zoom .6s forwards;
+
+}
+
+@keyframes zoom{
+    100%{transform: scale(1.5,1.5);}
+}
+
+
+
+.navbar a:hover{
+    background:linear-gradient(rgb(230, 255, 8),green) ;
+}
+.con-HS{
+    display: flex;
+}
+
+
+header{
+    margin-top: 24px;
+}
+
+.con-header{
+   margin-left: 10%;
+   margin-top: 15px;
+   display: flex;
+   align-items: center;
+}
+
+.header-logo{
+    height: 100px;
+    animation: rotate 2s infinite linear;
+}
+
+@keyframes rotate{
+    100%{transform: rotateZ(360deg);}
+}
+
+
+.con-img-desc{
+   margin: 80px auto;
+   max-width: 1200px;
+justify-content: center;
+   display: flex; 
+   flex-wrap: wrap;
+   
+}
+
+.logo{
+    max-width: auto ;
+    height: 500px;
+    animation: rotate 3s linear;
+
+
+}
+
+@keyframes rotate{
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+
+h3{
+    margin-top: 200px;
+    color: #8eff8e;
+    max-width:100%;
+    font-size: 45px;
+    align-items: center;
+}
+
+.typing{
+    
+    
+   
+    color: #8eff8e;
+    letter-spacing: 12px;
+    width: 100%;
+    border-right: 5px solid #8eff8e;
+    overflow: hidden;
+    font-family: monospace;
+    white-space: nowrap;
+    animation: 
+    typing 2s steps(16) infinite alternate ,
+  
+    cursor .4s infinite;
+}
+
+
+@keyframes typing{
+
+    0%,10%{
+        width: 0;
+    }
+
+   60%,100%{
+        width: 100%;
+    }
+   
+
+}
+
+@keyframes cursor{
+    50%{border-color: transparent;}
+}
+
+

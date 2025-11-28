@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(hooper.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    background-color: black;
+    
+    
+}
+
+
+
+.con-select{
+   margin: 10px auto;
+   
+   margin-right: 500px;
+}
+
+.main-select{
+    display: flex;
+}
+
+.navbar{
+    display: flex;
+    border-bottom:1px solid #8eff8e;
+    display: flex;
+
+}
+
+.navbar li{
+    list-style-type: none;
+    overflow: hidden;
+    
+
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 40px;
+    float: left;
+    display: flex;
+    color: black;
+    font-size: 30px;
+    color: #8eff8e;
+}
+
+
+.navbar li:hover{
+    animation: zoom .6s forwards;
+
+}
+
+@keyframes zoom{
+    100%{transform: scale(1.5,);}
+}
+
+
+.navbar a:hover{
+    background:linear-gradient(rgb(230, 255, 8),green);
+}
+
+.con-HS{
+    display: flex;
+}
+
+
+header{
+    margin-top: 24px;
+}
+
+.con-header{
+   margin-left: 180px;
+   margin-top: 15px;
+   display: flex;
+}
+
+.header-logo{
+    height: 100px;
+    animation: rotate 2s infinite linear;
+}
+
+@keyframes rotate{
+    100%{transform: rotateZ(360deg);}
+}
+
+
+.con-img-desc{
+   margin: 80px auto;
+   max-width: 1200px;
+ 
+   display: flex; 
+}
+
+
+
+
+.leader{
+    background-color: #bed1d1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    max-width: 400px;
+    border-radius: 40px;
+    border: 20px solid #8eff8e;
+}
+
+.con-kj{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.kj-img{
+    height: 170px;
+    border-radius: 80px;
+    
+
+}
+
+
+.leader:hover{
+    animation: zoom 2s forwards;
+
+}
+
+@keyframes zoom{
+    100%{transform: scale(2,2);}
+}
+
+
+
+.container{
+    margin: 20px auto;
+    width:90%;
+    max-width:900px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    gap: 50px;
+    
+   
+}
+
+
+.mem1{
+    background-color: #bed1d1;  
+    border-radius: 40px;
+    border: 20px solid #8eff8e;
+    margin: 30px auto;
+    
+}
+
+.con-don{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.don-img{
+    height: 170px;
+    border-radius: 80px;
+    
+
+}
+
+
+.mem1:hover{
+    animation: zoom 2s forwards;
+
+}
+
+@keyframes zoom{
+    100%{transform: scale(2,2);}
+}
+
+
+.mem2{
+    background-color: rgb(190, 209, 209);
+    border-radius: 40px;
+     border: 20px solid #8eff8e;
+     margin: 30px auto;
+   
+}
+
+.con-mike{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mike-img{
+    height: 170px;
+     border-radius: 80px;
+
+}
+
+.mem2:hover{
+    animation: zoom 2s forwards;
+
+}
+
+@keyframes zoom{
+    100%{transform: scale(2,2);}
+}
+
+.mem3{
+    background-color: rgb(190, 209, 209);
+    border-radius: 40px;
+     border: 20px solid #8eff8e;
+     margin: 30px auto;
+}
+
+.con-jayve{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jayve-img{
+    height: 170px;
+    border-radius: 80px;
+
+}
+
+
+.mem3:hover{
+    animation: zoom 2s forwards;
+
+}
+
+@keyframes zoom{
+    100%{transform: scale(2,2);}
+}
+
+.mem4{
+    background-color: rgb(190, 209, 209);
+    border-radius: 40px;
+     border: 20px solid #8eff8e;
+     margin: 30px auto;
+}
+
+.con-belbert{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.belbert-img{
+    height: 170px;
+    border-radius: 80px;
+
+}
+
+
+.mem4:hover{
+    animation: zoom 2s forwards;
+
+}
+
+@keyframes zoom{
+    100%{transform: scale(2,2);}
+}
+
+
+
+.mem5{
+    background-color: rgb(190, 209, 209);
+    border-radius: 40px;
+     border: 20px solid #8eff8e;
+     margin: 30px auto;
+}
+
+.con-lazaro{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lazaro-img{
+    height: 170px;
+     border-radius: 80px;
+
+}
+
+
+.mem5:hover{
+    animation: zoom 2s forwards;
+
+}
+
+@keyframes zoom{
+    100%{transform: scale(2,2);}
+}
+
+.mem6{
+    background-color: rgb(190, 209, 209);
+    border-radius: 40px;
+    border: 20px solid #8eff8e;
+    margin: 20px auto;
+}
+
+
+.con-joana{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.joana-img{
+    height: 170px;
+    border-radius: 80px;
+
+}
+
+
+.mem6:hover{
+    animation: zoom 2s forwards;
+
+}
+
+@keyframes zoom{
+    100%{transform: scale(2,2);}
+}
+
+.footer{
+    background-color: #92b692;
+    font-size: 35px;
+    font-weight: bolder;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+    
+    text-align:center ;
+}
+
+
+
+
+
+
