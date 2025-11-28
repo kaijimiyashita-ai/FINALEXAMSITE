@@ -129,7 +129,7 @@ header{
 
 
 .leader:hover{
-    animation: zoom 2s forwards;
+    animation: zoom .6s forwards;
 
 }
 
@@ -175,7 +175,7 @@ header{
 
 
 .mem1:hover{
-    animation: zoom 2s forwards;
+    animation: zoom .6s forwards;
 
 }
 
@@ -206,7 +206,7 @@ header{
 }
 
 .mem2:hover{
-    animation: zoom 2s forwards;
+    animation: zoom .6s forwards;
 
 }
 
@@ -235,7 +235,7 @@ header{
 
 
 .mem3:hover{
-    animation: zoom 2s forwards;
+    animation: zoom .6s forwards;
 
 }
 
@@ -264,7 +264,7 @@ header{
 
 
 .mem4:hover{
-    animation: zoom 2s forwards;
+    animation: zoom .6s forwards;
 
 }
 
@@ -295,7 +295,7 @@ header{
 
 
 .mem5:hover{
-    animation: zoom 2s forwards;
+    animation: zoom .6s forwards;
 
 }
 
@@ -326,7 +326,7 @@ header{
 
 
 .mem6:hover{
-    animation: zoom 2s forwards;
+    animation: zoom .6s forwards;
 
 }
 
